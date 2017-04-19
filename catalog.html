@@ -7,9 +7,9 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <figure class="main-logo">
-          <img src="#" width="100" height="50"  alt="Барбершоп">
-        </figure>
+        <div class="main-logo">
+          <a href="index.html"><img src="#" width="100" height="50"  alt="Барбершоп"></a>
+        </div>
         <nav class="main-navigation">
           <ul>
             <li>
@@ -45,7 +45,7 @@
             <a href="#">Магазин</a>
           </li>
           <li>
-            <a href="#">Средства для ухода</a>
+            <a class="breadcrumbs-current">Средства для ухода</a>
           </li>
         </ul>
       </div>
@@ -88,72 +88,74 @@
             <input class="filter-btn" type="submit" value="Показать" />
           </form>
         </div>
-        <div class="catalog-items">
-          <article>
-            <a href="#">
-              <img src="#" width="150" height="250" alt="item"/>
-              <h2>Набор для путешествий<br>"BAXTER OF CALIFORNIA"</h2>
-            </a>
-            <span class="catalog-item-price">123</span>
-            <a class="catalog-item-buybtn" href="#">Купить</a>
-          </article>
-          <article>
-            <a href="#">
-              <img src="#" width="150" height="250" alt="item"/>
-              <h2>Увлажняющий кондиционер<br>"BAXTER OF CALIFORNIA"</h2>
-            </a>
-            <span class="catalog-item-price">123</span>
-            <a class="catalog-item-buybtn" href="#">Купить</a>
-          </article>
-          <article>
-            <a href="#">
-              <img src="#" width="150" height="250" alt="item"/>
-              <h2>Гель для волос<br>"SUAVECITO"</h2>
-            </a>
-            <span class="catalog-item-price">123</span>
-            <a class="catalog-item-buybtn" href="#">Купить</a>
-          </article>
-          <article>
-            <a href="#">
-              <img src="#" width="150" height="250" alt="item"/>
-              <h2>Глина для укладки волос<br>"AMERICAN CREW"</h2>
-            </a>
-            <span class="catalog-item-price">123</span>
-            <a class="catalog-item-buybtn" href="#">Купить</a>
-          </article>
-          <article>
-            <a href="#">
-              <img src="#" width="150" height="250" alt="item"/>
-              <h2>Гель для волос<br>"AMERICAN CREW"</h2>
-            </a>
-            <span class="catalog-item-price">123</span>
-            <a class="catalog-item-buybtn" href="#">Купить</a>
-          </article>
-          <article>
-            <a href="#">
-              <img src="#" width="150" height="250" alt="item"/>
-              <h2>Набор для бритья<br>"BAXTER OF CALIFORNIA"</h2>
-            </a>
-            <span class="catalog-item-price">123</span>
-            <a class="catalog-item-buybtn" href="#">Купить</a>
-          </article>
+        <div class="catalog-main">
+          <div class="catalog-items">
+            <article>
+              <a href="#" class="catalog-item-imglink"><img src="#" width="150" height="250" alt="item"/></a>
+              <a href="#" class="catalog-item-namelink">
+                <h2>Набор для путешествий<span class="catalog-item-brand">"BAXTER OF CALIFORNIA"</span></h2>
+              </a>
+              <span class="catalog-item-price">123</span>
+              <a class="catalog-item-buybtn" href="#">Купить</a>
+            </article>
+            <article>
+              <a href="#" class="catalog-item-imglink"><img src="#" width="150" height="250" alt="item"/></a>
+              <a href="#" class="catalog-item-namelink">
+                <h2>Увлажняющий кондиционер<span class="catalog-item-brand">"BAXTER OF CALIFORNIA"</span></h2>
+              </a>
+              <span class="catalog-item-price">123</span>
+              <a class="catalog-item-buybtn" href="#">Купить</a>
+            </article>
+            <article>
+              <a href="#" class="catalog-item-imglink"><img src="#" width="150" height="250" alt="item"/></a>
+              <a href="#" class="catalog-item-namelink">
+                <h2>Гель для волос<span class="catalog-item-brand">"SUAVECITO"</span></h2>
+              </a>
+              <span class="catalog-item-price">123</span>
+              <a class="catalog-item-buybtn" href="#">Купить</a>
+            </article>
+            <article>
+              <a href="#" class="catalog-item-imglink"><img src="#" width="150" height="250" alt="item"/></a>
+              <a href="#" class="catalog-item-namelink">
+                <h2>Глина для укладки волос<span class="catalog-item-brand">"AMERICAN CREW"</span></h2>
+              </a>
+              <span class="catalog-item-price">123</span>
+              <a class="catalog-item-buybtn" href="#">Купить</a>
+            </article>
+            <article>
+              <a href="#" class="catalog-item-imglink"><img src="#" width="150" height="250" alt="item"/></a>
+              <a href="#" class="catalog-item-namelink">
+                <h2>Гель для волос<span class="catalog-item-brand">"AMERICAN CREW"</span></h2>
+              </a>
+              <span class="catalog-item-price">123</span>
+              <a class="catalog-item-buybtn" href="#">Купить</a>
+            </article>
+            <article>
+              <a href="#" class="catalog-item-imglink"><img src="#" width="150" height="250" alt="item"/></a>
+              <a href="#" class="catalog-item-namelink">
+                <h2>Набор для бритья<span class="catalog-item-brand">"BAXTER OF CALIFORNIA"</span></h2>
+              </a>
+              <span class="catalog-item-price">123</span>
+              <a class="catalog-item-buybtn" href="#">Купить</a>
+            </article>
+          </div>
+          <div class="catalog-main-pagination">
+            <ul>
+              <li>
+                <a href="#">1</a>
+              </li>
+              <li>
+                <a class="pagination-current">2</a>
+              </li>
+              <li>
+                <a href="#">3</a>
+              </li>
+              <li>
+                <a href="#">4</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="catalog-lists">
-        <ul>
-          <li>
-            <a href="#">1</a>
-          </li>
-          <li>
-            <a href="#">2</a>
-          </li>
-          <li>
-            <a href="#">3</a>
-          </li>
-          <li>
-            <a href="#">4</a>
-          </li>
-        </ul>
       </div>
     </main>
     <footer class="main-footer">
